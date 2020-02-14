@@ -21,9 +21,9 @@ fn reorder(input: &str) -> String {
             (true, content) => {
                 for slice in content.chars().collect::<Vec<_>>().chunks(3) {
                     if slice.len() == 3 {
-                        out.push(slice[1]);
                         out.push(slice[0]);
                         out.push(slice[2]);
+                        out.push(slice[1]);
                     } else {
                         for ch in slice {
                             out.push(*ch);
