@@ -1,0 +1,11 @@
+[package]
+name = "reorder-chinese"
+version = "0.1.0"
+authors = ["Chinuno Usami <usami@chinuno.com>"]
+edition = "2018"
+
+
+[dependencies]
+regex = "1"
+yew = "0.11.0"
+lazy_static = "1.4.0"
